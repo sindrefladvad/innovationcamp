@@ -44,8 +44,8 @@
   @media screen and (max-width: 650px) {
     .navbar a {
       float: left;
-      font-size: 14px;
-      
+      font-size: 10px;
+      padding: 10px 10px;
       text-align: left;
     }
     .navbar-right {
@@ -53,7 +53,7 @@
     }
 
     .navbar a.logo {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
         font-family: Helvetica, Arial, sans-serif;
         color:red;
