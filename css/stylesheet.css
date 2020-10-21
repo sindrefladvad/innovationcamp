@@ -103,13 +103,13 @@ padding-top: 10px;
         border: none;
         padding: 12px;
         color: white;
-        background-color: #000;
+        background-color: IndianRed;
         cursor: pointer;
-        width: 50%;
+        width: auto;
       }
 
       .button:hover {
-        background-color: IndianRed;
+        background-color: #555;
       }
 
       .contacttext{
@@ -119,43 +119,23 @@ padding-top: 10px;
 
 
 /* FOOTER */
-    .footer{
-      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-      border-collapse: collapse;
+    .footer {
       width: 100%;
-      background-color:#F2F2F2;
+      background-color:whitesmoke;
       margin: 0;
       padding: 0;
     }
 
-
-    .footer th {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      padding-left: 0px;
-      text-align: left;
-      background-color: white;
-      color:#616161;
-    }
-
-    .footer tr{
-      padding: 20px;
-      color:#616161;
-    }
-
-    .footer td{
-      padding: 12px;
-      color:#616161;
-    }
-
-    .bunnlinja {
-
-      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    .footer table {
+      font-family: Arial, sans-serif;
       border-collapse: collapse;
       width: auto;
       margin-left:auto;
       margin-right:auto;
-      font-size: 15px;
-      color: #F2F2F2;
+      font-size: 12px;
+    }
 
+    .footer td{
+      padding: 12px 60px;
+      color:#616161;
     }

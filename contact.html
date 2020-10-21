@@ -12,15 +12,16 @@
 
     <header>
       <div class="navbar">
-        <a href="#default" class="logo">AIDE</a>
+        <a href="index.html" class="logo">AIDE</a>
           <div class="navbar-right">
             <a href="index.html">Take me back to the main page</a>
           </div>
       </div>
     </header>
 
-    <main class="main">
+    <main>
 
+      <div class="contentbox">
           <h1>Contact Form</h1>
           <h3>Don't hesitate to contact us</h3>
 
@@ -29,45 +30,46 @@
 
           <div class="gender-choice">
             <h4>Select your gender</h4>
-            <input type="radio" id="male" name="gender" value="male">
+            <input type="radio" name="gender" value="male">
             <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
+            <input type="radio" name="gender" value="female">
             <label for="female">Female</label><br>
-            <input type="radio" id="other" name="gender" value="other">
+            <input type="radio" name="gender" value="other">
             <label for="other">Other</label><br>
           </div>
 
           <div class="personal-info">
             <h4>Fill in your personal information</h4>
             <label for="firstname">First Name</label>
-            <input type="text" id="fname" name="firstname"><br>
+            <input type="text" name="firstname"><br>
 
             <label for="lastname">Last Name</label>
-            <input type="text" id="lname" name="lastname"><br>
+            <input type="text" name="lastname"><br>
 
-            <label for="email">E-mail&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-            <input type="text" id="email" name="email">
+            <label for="email">E-mail&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="text" name="email">
           </div>
 
           <div class="recipients">
             <h4>Choose recipient(s)</h4>
             <label for="bill">Bill</label>
-            <input type="checkbox" id="bill" name="bill"><br>
+            <input type="checkbox" name="bill"><br>
 
             <label for="elon">Elon</label>
-            <input type="checkbox" id="elon" name="elon"><br>
+            <input type="checkbox" name="elon"><br>
 
             <label for="oprah">Oprah</label>
-            <input type="checkbox" id="oprah" name="oprah">
+            <input type="checkbox" name="oprah">
           </div>
 
             <label for="textbox"></label>
-            <textarea id="textbox" name="textbox" placeholder="Write something to us..." style="height:200px"></textarea>
+            <textarea name="textbox" placeholder="Write something to us..." style="height:200px"></textarea>
 
             <input class="submit-button" type="submit" value="Send">
 
           </form>
         </div>
+      </div>
       </main>
     </body>
 </html>
